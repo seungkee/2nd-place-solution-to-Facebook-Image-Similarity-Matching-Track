@@ -13,6 +13,5 @@ chmod +x run.sh
 ```
 
 ## Hardware Requirements
-Local Drive Capacity >= 4TB
-GPU : A100 40GB x 8
+Local Drive Capacity >= 4TB, GPU : A100 40GB x 8
 
