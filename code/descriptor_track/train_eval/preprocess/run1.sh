@@ -6,5 +6,5 @@ cp public_ground_truth.csv /facebook/data/public_ground_truth.csv
 python makeClassFolder.py /facebook/data/images/train1M/train
 #cp -rf AugLy /facebook2/AugLy
 #cp -rf noto-emoji /facebook2/noto-emoji
-#git clone https://github.com/facebookresearch/AugLy.git /facebook2/AugLy
-#git clone https://github.com/googlefonts/noto-emoji.git /facebook2/noto-emoji
+git clone https://github.com/facebookresearch/AugLy.git /facebook2/AugLy
+git clone https://github.com/googlefonts/noto-emoji.git /facebook2/noto-emoji
