@@ -1,0 +1,2 @@
+./train.sh
+./eval.sh
