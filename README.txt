@@ -1,6 +1,6 @@
 [Run Setting & Train & Inference]
 sudo docker pull pytorch/pytorch:1.7.1-cuda11.0-cudnn8-devel
-sudo docker run --runtime=nvidia --rm -it --ipc=host --gpus all -v $pwd/submission_matching_1:/submission pytorch/pytorch:1.7.1-cuda11.0-cudnn8-devel
+sudo docker run --runtime=nvidia --rm -it --ipc=host --gpus all -v $pwd/2nd-place-solution-to-Facebook-Image-Similarity-Matching-Track:/submission pytorch/pytorch:1.7.1-cuda11.0-cudnn8-devel
 cd /submission
 chmod +x run.sh
 ./run.sh
